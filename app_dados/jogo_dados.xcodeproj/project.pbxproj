@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2167255224390C4C0030039B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167255124390C4C0030039B /* AppDelegate.swift */; };
+		2167255424390C4C0030039B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167255324390C4C0030039B /* SceneDelegate.swift */; };
+		2167255624390C4C0030039B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2167255524390C4C0030039B /* ViewController.swift */; };
+		2167255924390C4C0030039B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2167255724390C4C0030039B /* Main.storyboard */; };
+		2167255B24390C4C0030039B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2167255A24390C4C0030039B /* Assets.xcassets */; };
+		2167255E24390C4C0030039B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2167255C24390C4C0030039B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2167256524390C4D0030039B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2167254624390C4C0030039B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2167254D24390C4C0030039B;
+			remoteInfo = jogo_dados;
+		};
+		2167257024390C4D0030039B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2167254624390C4C0030039B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2167254D24390C4C0030039B;
+			remoteInfo = jogo_dados;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2167254E24390C4C0030039B /* jogo_dados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jogo_dados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2167255124390C4C0030039B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2167255324390C4C0030039B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2167255524390C4C0030039B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2167255824390C4C0030039B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2167255A24390C4C0030039B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2167255D24390C4C0030039B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2167255F24390C4C0030039B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2167256424390C4D0030039B /* jogo_dadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jogo_dadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2167256F24390C4D0030039B /* jogo_dadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jogo_dadosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2167254B24390C4C0030039B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2167256124390C4D0030039B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2167256C24390C4D0030039B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2167254524390C4C0030039B = {
+			isa = PBXGroup;
+			children = (
+				2167255024390C4C0030039B /* jogo_dados */,
+				2167254F24390C4C0030039B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2167254F24390C4C0030039B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2167254E24390C4C0030039B /* jogo_dados.app */,
+				2167256424390C4D0030039B /* jogo_dadosTests.xctest */,
+				2167256F24390C4D0030039B /* jogo_dadosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2167255024390C4C0030039B /* jogo_dados */ = {
+			isa = PBXGroup;
+			children = (
+				2167255124390C4C0030039B /* AppDelegate.swift */,
+				2167255324390C4C0030039B /* SceneDelegate.swift */,
+				2167255524390C4C0030039B /* ViewController.swift */,
+				2167255724390C4C0030039B /* Main.storyboard */,
+				2167255A24390C4C0030039B /* Assets.xcassets */,
+				2167255C24390C4C0030039B /* LaunchScreen.storyboard */,
+				2167255F24390C4C0030039B /* Info.plist */,
+			);
+			path = jogo_dados;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2167254D24390C4C0030039B /* jogo_dados */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2167257824390C4D0030039B /* Build configuration list for PBXNativeTarget "jogo_dados" */;
+			buildPhases = (
+				2167254A24390C4C0030039B /* Sources */,
+				2167254B24390C4C0030039B /* Frameworks */,
+				2167254C24390C4C0030039B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jogo_dados;
+			productName = jogo_dados;
+			productReference = 2167254E24390C4C0030039B /* jogo_dados.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2167256324390C4D0030039B /* jogo_dadosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2167257B24390C4D0030039B /* Build configuration list for PBXNativeTarget "jogo_dadosTests" */;
+			buildPhases = (
+				2167256024390C4D0030039B /* Sources */,
+				2167256124390C4D0030039B /* Frameworks */,
+				2167256224390C4D0030039B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2167256624390C4D0030039B /* PBXTargetDependency */,
+			);
+			name = jogo_dadosTests;
+			productName = jogo_dadosTests;
+			productReference = 2167256424390C4D0030039B /* jogo_dadosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2167256E24390C4D0030039B /* jogo_dadosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2167257E24390C4D0030039B /* Build configuration list for PBXNativeTarget "jogo_dadosUITests" */;
+			buildPhases = (
+				2167256B24390C4D0030039B /* Sources */,
+				2167256C24390C4D0030039B /* Frameworks */,
+				2167256D24390C4D0030039B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2167257124390C4D0030039B /* PBXTargetDependency */,
+			);
+			name = jogo_dadosUITests;
+			productName = jogo_dadosUITests;
+			productReference = 2167256F24390C4D0030039B /* jogo_dadosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2167254624390C4C0030039B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Cezar Pereira";
+				TargetAttributes = {
+					2167254D24390C4C0030039B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					2167256324390C4D0030039B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2167254D24390C4C0030039B;
+					};
+					2167256E24390C4D0030039B = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 2167254D24390C4C0030039B;
+					};
+				};
+			};
+			buildConfigurationList = 2167254924390C4C0030039B /* Build configuration list for PBXProject "jogo_dados" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2167254524390C4C0030039B;
+			productRefGroup = 2167254F24390C4C0030039B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2167254D24390C4C0030039B /* jogo_dados */,
+				2167256324390C4D0030039B /* jogo_dadosTests */,
+				2167256E24390C4D0030039B /* jogo_dadosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2167254C24390C4C0030039B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2167255E24390C4C0030039B /* LaunchScreen.storyboard in Resources */,
+				2167255B24390C4C0030039B /* Assets.xcassets in Resources */,
+				2167255924390C4C0030039B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2167256224390C4D0030039B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2167256D24390C4D0030039B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2167254A24390C4C0030039B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2167255624390C4C0030039B /* ViewController.swift in Sources */,
+				2167255224390C4C0030039B /* AppDelegate.swift in Sources */,
+				2167255424390C4C0030039B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2167256024390C4D0030039B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2167256B24390C4D0030039B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2167256624390C4D0030039B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2167254D24390C4C0030039B /* jogo_dados */;
+			targetProxy = 2167256524390C4D0030039B /* PBXContainerItemProxy */;
+		};
+		2167257124390C4D0030039B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2167254D24390C4C0030039B /* jogo_dados */;
+			targetProxy = 2167257024390C4D0030039B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2167255724390C4C0030039B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2167255824390C4C0030039B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2167255C24390C4C0030039B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2167255D24390C4C0030039B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2167257624390C4D0030039B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2167257724390C4D0030039B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2167257924390C4D0030039B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZXPNULQUB;
+				INFOPLIST_FILE = jogo_dados/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezar.jogo-dados";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2167257A24390C4D0030039B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZXPNULQUB;
+				INFOPLIST_FILE = jogo_dados/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezar.jogo-dados";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2167257C24390C4D0030039B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZXPNULQUB;
+				INFOPLIST_FILE = jogo_dadosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezar.jogo-dadosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jogo_dados.app/jogo_dados";
+			};
+			name = Debug;
+		};
+		2167257D24390C4D0030039B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZXPNULQUB;
+				INFOPLIST_FILE = jogo_dadosTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezar.jogo-dadosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jogo_dados.app/jogo_dados";
+			};
+			name = Release;
+		};
+		2167257F24390C4D0030039B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZXPNULQUB;
+				INFOPLIST_FILE = jogo_dadosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezar.jogo-dadosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jogo_dados;
+			};
+			name = Debug;
+		};
+		2167258024390C4D0030039B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZXPNULQUB;
+				INFOPLIST_FILE = jogo_dadosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cezar.jogo-dadosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = jogo_dados;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2167254924390C4C0030039B /* Build configuration list for PBXProject "jogo_dados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2167257624390C4D0030039B /* Debug */,
+				2167257724390C4D0030039B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2167257824390C4D0030039B /* Build configuration list for PBXNativeTarget "jogo_dados" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2167257924390C4D0030039B /* Debug */,
+				2167257A24390C4D0030039B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2167257B24390C4D0030039B /* Build configuration list for PBXNativeTarget "jogo_dadosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2167257C24390C4D0030039B /* Debug */,
+				2167257D24390C4D0030039B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2167257E24390C4D0030039B /* Build configuration list for PBXNativeTarget "jogo_dadosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2167257F24390C4D0030039B /* Debug */,
+				2167258024390C4D0030039B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2167254624390C4C0030039B /* Project object */;
+}
